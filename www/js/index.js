@@ -29,7 +29,10 @@ var app = {
     console.log("ready");
     window.handleOpenURL = function(url) {
       console.log("------------------");
-      console.log("HANDLEOPENURL TRIGGERED:", url);
+      console.log(
+        "HANDLEOPENURL TRIGGERED IN WKWEBVIEW, NOT IN UIWEBVIEW:",
+        url
+      );
       console.log("------------------");
     };
     document.querySelector("#button").addEventListener("click", function() {
