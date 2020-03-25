@@ -13,8 +13,8 @@
   "author": "Apache Cordova Team",
   "license": "Apache-2.0",
   "dependencies": {
-    "cordova-ios": "^5.1.1",
-    "cordova-plugin-inappbrowser": "^3.2.0",
+    "cordova-ios": "^4.5.5",
+    "cordova-plugin-inappbrowser": "git+https://github.com/j--w/cordova-plugin-inappbrowser.git#97677a6dc55796dfe4256fec02921fd6730bf8eb",
     "cordova-plugin-whitelist": "1",
     "cordova-plugin-wkwebview-engine": "^1.2.1"
   },

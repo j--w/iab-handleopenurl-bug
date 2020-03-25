@@ -27,8 +27,8 @@
     <feature name="CDVWKWebViewEngine">
         <param name="ios-package" value="CDVWKWebViewEngine" />
     </feature>
-    <engine name="ios" spec="^5.1.1" />
+    <engine name="ios" spec="^4.5.5" />
     <plugin name="cordova-plugin-whitelist" spec="1" />
-    <plugin name="cordova-plugin-inappbrowser" spec="^3.2.0" />
+    <plugin name="cordova-plugin-inappbrowser" spec="git+https://github.com/j--w/cordova-plugin-inappbrowser.git#97677a6dc55796dfe4256fec02921fd6730bf8eb" />
     <plugin name="cordova-plugin-wkwebview-engine" spec="^1.2.1" />
 </widget>
